@@ -304,6 +304,9 @@ form label span {
 .button:active {
 	box-shadow: none;
 	transform: translateX(2px) translateY(3px);
+	-webkit-transform: translateX(2px) translateY(3px);
+	-moz-transform: translateX(2px) translateY(3px);
+	-ms-transform: translateX(2px) translateY(3px);
 }
 .arrow {
 	margin: 0 0 0 10px;
